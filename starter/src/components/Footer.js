@@ -1,9 +1,14 @@
+import PageLinks from "./PageLinks";
+
 function Footer() {
   return (
-    <div>
-      <p className="section-dummy">Footer</p>
-      <p className="section-dummy">...</p>
-    </div>
+    <footer className="section footer">
+      <PageLinks parentClass="footer-links" itemClass="footer-link" />
+      <p className="copyright">
+        copyright © travel tours company<span id="date">2023</span>. all rights
+        reserved
+      </p>
+    </footer>
   );
 }
 
