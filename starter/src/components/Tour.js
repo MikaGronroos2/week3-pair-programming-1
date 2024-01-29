@@ -1,8 +1,8 @@
 const Tour = ({ id, image, date, title, info, location, duration, cost }) => {
   return (
-    <article class="tour-card">
+    <article class="tour-card" key={id}>
       <div class="tour-img-container">
-        <img src="images/tour-1.jpeg" class="tour-img" alt={title} />
+        <img src={image} class="tour-img" alt={title} />
         <p class="tour-date">{date}</p>
       </div>
       <div class="tour-info">
