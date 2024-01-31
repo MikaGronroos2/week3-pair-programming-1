@@ -11,20 +11,10 @@ const Navbar = () => {
             <i className="fas fa-bars"></i>
           </button>
         </div>
-        <PageLinks parentClass="footer-links" itemClass="footer-link" />
+        <PageLinks parentClass="navbar-links" itemClass="nav-link" />
       </div>
     </nav>
   );
 };
 
 export default Navbar;
-
-// ZOOMI ON KAATUNUT XDDDDD
-
-// :'DDDD mitä vittua
-
-// Discord?'
-
-// Jooooo, mun disc on myös mangomansikka
-
-// Friend Request lähetetty
