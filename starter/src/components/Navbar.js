@@ -1,4 +1,4 @@
-import logo from "../images/logo.svg";
+import logo from "../images/tour-1.jpeg";
 import PageLinks from "./PageLinks";
 
 const Navbar = () => {
